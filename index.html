@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Ludum Dare 40 - Star Destroyer</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="js/lib/le.min.js" type="text/javascript"></script>
+        <script src="js/lib/FontRenderer.min.js" type="text/javascript"></script>
+        <!--  Inputs should be first as it contains globals -->
+        <script src="js/inputs.js" type="text/javascript"></script>
+        <script src="js/classes/TextRenderer.js" type="text/javascript"></script>
+        <script src="js/classes/SoundEffect.js" type="text/javascript"></script>
+        <script src="js/classes/Player.js" type="text/javascript"></script>
+        <script src="js/classes/Light.js" type="text/javascript"></script>
+        <script src="js/classes/Lights.js" type="text/javascript"></script>
+        <script src="js/index.js" type="text/javascript"></script>
+    </head>
+    <body onload="init();">
+        <h1>Ludum Dare 40</h1>
+        <h2>Theme: The more you have, the worse it is</h2>
+        <div> 
+            <canvas id="canvas" width="960" height="540" oncontextmenu="return false;">
+                Please update your browser or enable javascript to view this content.
+            </canvas>
+            <br>
+            <button onclick="muteAllSound()">Mute/Unmute</button>
+            <button onclick="gameHelp()">Help</button>
+        </div>
+    </body>
+</html>
